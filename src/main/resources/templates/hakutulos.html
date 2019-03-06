@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Maalistaus</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<tbody>
+
+<h1>WORLD</h1>
+
+<table>
+
+
+    <tr><th>Country</th><th>Head Of State</th><th>Population</th><th>Independence</th></tr>
+    <tr th:each="country: ${maaHaku}">
+        <td th:text="${country.name}"/>
+        <td th:text="${country.head_of_state}"/>
+        <td th:text="${country.population}"/>
+        <td th:text="${country.indep_year}"></td>
+
+
+
+    </tr>
+
+</table>
+
+</tbody>
+</html>

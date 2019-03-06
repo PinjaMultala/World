@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: "Malgun Gothic";
+    color: black;
+}
+
+table {
+    margin: 0px auto;
+    background-color: #000000;
+}
+tbody{
+    background-color: white;
+
+
+
+}
+
+td{
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+
+}
+th {
+    color: black;
+    font-family: "Malgun Gothic";
+    text-align: center;
+}
+
+.cruds {
+    float: top;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.countrys {
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
